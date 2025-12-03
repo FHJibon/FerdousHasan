@@ -5,8 +5,8 @@ export default function Intro() {
       <p className="text-sm uppercase tracking-widest text-slate-400">AI Engineer</p>
       <p className="mt-4 text-lg md:text-xl text-slate-300 max-w-2xl">I build end-to-end machine learning and LLM-powered systems and production-ready AI solutions that deliver measurable business value</p>
       <div className="mt-6 flex gap-3">
-        <a href="#work" className="btn">View Work</a>
-        <a href="#contact" className="btn-ghost">Contact</a>
+        <a href="#projects" className="btn transition-transform duration-300 hover:scale-110 hover:shadow-lg">Projects</a>
+        <a href="#contact" className="btn-ghost transition-transform duration-300 hover:scale-110 hover:shadow-lg">Contact</a>
       </div>
     </section>
   );

@@ -9,7 +9,7 @@ export default function Skills() {
         <h3 className="section-title mb-6">Expertise</h3>
         <div className="flex flex-wrap justify-center gap-3">
           {skills.map((skill) => (
-            <span key={skill} className="px-3 py-1 rounded-full bg-slate-800/60 text-slate-200 text-sm border border-slate-700">
+            <span key={skill} className="px-3 py-1 rounded-full bg-slate-800/60 text-slate-200 text-sm border border-slate-700 transition-transform duration-300 hover:scale-110 hover:shadow-lg cursor-pointer">
               {skill}
             </span>
           ))}

@@ -5,11 +5,11 @@ export default function Header() {
         <h1 className="text-lg md:text-xl font-bold text-white">Ferdous Hasan</h1>
         <nav>
           <ul className="flex gap-4 md:gap-6 text-slate-300">
-            <li><a href="#home" className="hover:text-primary">Home</a></li>
-            <li><a href="#expertise" className="hover:text-primary">Expertise</a></li>
-            <li><a href="#work" className="hover:text-primary">Work</a></li>
-            <li><a href="#experience" className="hover:text-primary">Experience</a></li>
-            <li><a href="#contact" className="hover:text-primary">Contact</a></li>
+            <li><a href="#home" className="hover:text-primary transition-transform duration-300 hover:scale-110">Home</a></li>
+            <li><a href="#expertise" className="hover:text-primary transition-transform duration-300 hover:scale-110">Expertise</a></li>
+            <li><a href="#projects" className="hover:text-primary transition-transform duration-300 hover:scale-110">Projects</a></li>
+            <li><a href="#experience" className="hover:text-primary transition-transform duration-300 hover:scale-110">Experience</a></li>
+            <li><a href="#contact" className="hover:text-primary transition-transform duration-300 hover:scale-110">Contact</a></li>
           </ul>
         </nav>
       </div>
