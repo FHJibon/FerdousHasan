@@ -22,7 +22,7 @@ export default function Projects() {
       name: "AI Tax Assistant",
       desc: "AI-powered assistant for tax queries and ready-to-file returns.",
       tools: "Python, FastAPI, OpenAI API, LangChain",
-      link: "https://github.com/FHJibon/AI-Tax-Law-Assistant-Frontend"
+      link: "https://taxassistant.online"
     }
   ];
   const githubUrl = "https://github.com/FHJibon";
